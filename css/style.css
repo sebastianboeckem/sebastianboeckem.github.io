@@ -1,6 +1,7 @@
-@import "navigation.scss";
+@import "webfonts.css";
+@import "navigation.css";
 @import "landing.css";
-@import "impressum.scss";
+@import "impressum.css";
 
 * {
     margin: 0;

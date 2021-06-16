@@ -1,3 +1,6 @@
+---
+---
+
 .person {
     position: fixed;
     bottom: -30px;
@@ -62,6 +65,35 @@ iframe {
     border-top-color: #fff;
     margin-top: -10px;
     z-index: 2;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    a {
+        font-family: 'Font-Awesome-Brands';
+        display: block;
+        color: white;
+        font-size: 3rem;
+        opacity: .6;
+        &:hover {
+            opacity: 1;
+            color: #00c2cb;
+        }
+    }
+    .face::before {
+        content: '\f082';
+    }
+    .insta::before {
+        content: '\e055';
+    }
+    .you::before {
+        content: '\f431';
+    }
+    .xing::before {
+        content: '\f169';
+    }
 }
 
 @media only screen and (max-width: 600px) {
