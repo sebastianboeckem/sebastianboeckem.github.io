@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "impressum.css",
+	"sources": [
+		"impressum.scss"
+	],
+	"sourcesContent": [
+		".contact-details span {\n    display: block;\n    &.name::before {\n        content: 'Sebatian B\\00f6 ckem';\n    }\n\n    &.address-1::before {\n        content: 'Reiterstaffelplatz 10';\n    }\n\n    &.address-2::before {\n        content: '50968 K\\00f6 ln';\n    }\n\n    &.mail::before {\n        content: 'sebastianboeckem@gmail.com';\n    }\n\n    &.tel::before {\n        content: '0176 70504421';\n    }\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,gBAAgB,CAAC,IAAI,CAAC,EAClB,OAAO,EAAE,KAAK,GAoBjB;;AArBD,AAEI,gBAFY,CAAC,IAAI,AAEhB,KAAK,EAAE,MAAM,CAAC,EACX,OAAO,EAAE,sBAAsB,GAClC;;AAJL,AAMI,gBANY,CAAC,IAAI,AAMhB,UAAU,EAAE,MAAM,CAAC,EAChB,OAAO,EAAE,uBAAuB,GACnC;;AARL,AAUI,gBAVY,CAAC,IAAI,AAUhB,UAAU,EAAE,MAAM,CAAC,EAChB,OAAO,EAAE,iBAAiB,GAC7B;;AAZL,AAcI,gBAdY,CAAC,IAAI,AAchB,KAAK,EAAE,MAAM,CAAC,EACX,OAAO,EAAE,4BAA4B,GACxC;;AAhBL,AAkBI,gBAlBY,CAAC,IAAI,AAkBhB,IAAI,EAAE,MAAM,CAAC,EACV,OAAO,EAAE,eAAe,GAC3B"
+}

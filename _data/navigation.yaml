@@ -1,0 +1,3 @@
+- name: Impressum
+  linkAttr: ./impressum.html
+  link: /impressum.html

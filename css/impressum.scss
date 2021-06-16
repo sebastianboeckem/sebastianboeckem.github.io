@@ -1,0 +1,25 @@
+---
+---
+
+.contact-details span {
+    display: block;
+    &.name::before {
+        content: 'Sebatian B\00f6 ckem';
+    }
+
+    &.address-1::before {
+        content: 'Reiterstaffelplatz 10';
+    }
+
+    &.address-2::before {
+        content: '50968 K\00f6 ln';
+    }
+
+    &.mail::before {
+        content: 'sebastianboeckem@gmail.com';
+    }
+
+    &.tel::before {
+        content: '0176 70504421';
+    }
+}

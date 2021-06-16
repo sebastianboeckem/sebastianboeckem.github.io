@@ -1,0 +1,26 @@
+<header>
+    <nav>
+        <div>
+            <a href="./index.html">
+                <h1>
+                    Sebastian
+                    <span>
+                Böckem
+              </span>
+                </h1>
+            </a>
+        </div>
+        <div>
+            <ul class="menu">
+
+                {% for item in site.data.navigation %}
+                <li>
+                    <a href="{{ item.linkAttr }}" {% if page.url == item.link %}class="active"{% endif %}>
+                        {{ item.name }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+</header>

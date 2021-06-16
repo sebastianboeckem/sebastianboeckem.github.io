@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav > div:first-child {
+    flex-grow: 1;
+}
+
+nav a {
+    color: white;
+}
+
+.menu a {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
+
+.menu a:hover,
+.menu a.active {
+    background: rgba(255,255,255,.3);
+}
