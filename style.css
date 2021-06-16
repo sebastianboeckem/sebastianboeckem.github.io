@@ -8,7 +8,7 @@ document {
 html {
   overflow: hidden;
   height: 100vh;
-  background: black url(../background.png) no-repeat center;
+  background: black url(img/background.png) no-repeat center;
   background-size: cover;
   font-size: 16px;
   font-family: 'Arial';
