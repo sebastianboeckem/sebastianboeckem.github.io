@@ -1,0 +1,26 @@
+---
+---
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+
+    a {
+        color: white;
+    }
+
+    & > div:first-child {
+        flex-grow: 1;
+    }
+
+    .menu a {
+        font-size: 1.2rem;
+        padding: 5px 10px;
+
+        &:hover,
+        &.active {
+            background: rgba(255,255,255,.3);
+        }
+    }
+}

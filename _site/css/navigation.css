@@ -1,22 +1,11 @@
-nav {
-    display: flex;
-    align-items: center;
-}
+nav { display: flex; align-items: center; padding: 50px 0; }
 
-nav > div:first-child {
-    flex-grow: 1;
-}
+nav a { color: white; }
 
-nav a {
-    color: white;
-}
+nav > div:first-child { flex-grow: 1; }
 
-.menu a {
-    font-size: 1.2rem;
-    padding: 5px 10px;
-}
+nav .menu a { font-size: 1.2rem; padding: 5px 10px; }
 
-.menu a:hover,
-.menu a.active {
-    background: rgba(255,255,255,.3);
-}
+nav .menu a:hover, nav .menu a.active { background: rgba(255, 255, 255, 0.3); }
+
+/*# sourceMappingURL=navigation.css.map */

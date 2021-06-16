@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "navigation.css",
+	"sources": [
+		"navigation.scss"
+	],
+	"sourcesContent": [
+		"nav {\n    display: flex;\n    align-items: center;\n    padding: 50px 0;\n\n    a {\n        color: white;\n    }\n\n    & > div:first-child {\n        flex-grow: 1;\n    }\n\n    .menu a {\n        font-size: 1.2rem;\n        padding: 5px 10px;\n\n        &:hover,\n        &.active {\n            background: rgba(255,255,255,.3);\n        }\n    }\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,GAAG,CAAC,EACA,OAAO,EAAE,IAAI,EACb,WAAW,EAAE,MAAM,EACnB,OAAO,EAAE,MAAM,GAmBlB;;AAtBD,AAKI,GALD,CAKC,CAAC,CAAC,EACE,KAAK,EAAE,KAAK,GACf;;AAPL,AASI,GATD,GASK,GAAG,CAAC,WAAW,CAAC,EAChB,SAAS,EAAE,CAAC,GACf;;AAXL,AAaI,GAbD,CAaC,KAAK,CAAC,CAAC,CAAC,EACJ,SAAS,EAAE,MAAM,EACjB,OAAO,EAAE,QAAQ,GAMpB;;AArBL,AAiBQ,GAjBL,CAaC,KAAK,CAAC,CAAC,CAID,KAAK,EAjBf,GAAG,CAaC,KAAK,CAAC,CAAC,AAKF,OAAO,CAAC,EACL,UAAU,EAAE,wBAAoB,GACnC"
+}
