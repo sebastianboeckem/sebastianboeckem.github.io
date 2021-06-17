@@ -14,12 +14,3 @@ finalTextArray.forEach((character, index) => {
     document.querySelector('#bubble').innerHTML = currentTextArray.join('');
   }, 1000 + 50 * index);
 });
-const html = document.getElementsByTagName('html')[0];
-html.addEventListener('mousemove', ({ clientX, clientY }) => {
-  const ratio = 3;
-  const centerX = html.offsetWidth / 2;
-  const centerY = html.offsetHeight / 2;
-  const backgroundPositionX = ((centerX - clientX) / centerX) * ratio;
-  const backgroundPositionY = ((centerY - clientY) / centerY) * ratio;
-  html.style['background-position'] = `${backgroundPositionX}px ${backgroundPositionY}px`;
-});
